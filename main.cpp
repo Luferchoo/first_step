@@ -3,10 +3,10 @@
 #include <string.h>
 using namespace std;
 
-//a) Diseñe y programe las estructuras necesarias para almacenar la información de los pedidos (2 pts.)
+//a) Diseï¿½e y programe las estructuras necesarias para almacenar la informaciï¿½n de los pedidos (2 pts.)
 typedef struct
 {
-    char cliente[20];
+    char cliente[20]; //esta es la segunda versiÃ³n del mismo examen 
     int cantidad;
     char alimento[20];
 } pedido_virtual;
@@ -23,7 +23,7 @@ lista_pedidos leerarchivo ()
 {
     lista_pedidos lp;
     int cont=0;
-    ifstream archivo("pedidos.txt");
+    ifstream archivo("C:\\Users\\59175\\inge_soft\\primeros_pasos\\examen luis Gil progra 1\\pedidos.txt");
     while (!archivo.eof())
     {
         archivo>>lp.vec[cont].cliente;
