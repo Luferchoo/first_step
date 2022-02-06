@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1588867129 source:c:\users\wwwlu\onedrive\escritorio\segundo semestre\programación 1\examen luis gil progra 1\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+
